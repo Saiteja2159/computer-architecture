@@ -1,0 +1,11 @@
+Smallest of two numbers :-
+
+
+LDA 2500
+MOV B,A
+LDA 2501
+CMP B
+JC LOOP
+MOV A,B
+LOOP: STA 2502
+HLT
